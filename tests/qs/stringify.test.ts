@@ -1,7 +1,7 @@
 import iconv from 'iconv-lite';
-import { stringify } from 'morphcloud/internal/qs';
-import { encode } from 'morphcloud/internal/qs/utils';
-import { StringifyOptions } from 'morphcloud/internal/qs/types';
+import { stringify } from 'sw-morphcloud/internal/qs';
+import { encode } from 'sw-morphcloud/internal/qs/utils';
+import { StringifyOptions } from 'sw-morphcloud/internal/qs/types';
 import { empty_test_cases } from './empty-keys-cases';
 import assert from 'assert';
 
