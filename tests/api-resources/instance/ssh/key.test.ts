@@ -1,6 +1,6 @@
 // File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
 
-import Morphcloud from 'morphcloud';
+import Morphcloud from 'sw-morphcloud';
 
 const client = new Morphcloud({
   bearerToken: 'My Bearer Token',

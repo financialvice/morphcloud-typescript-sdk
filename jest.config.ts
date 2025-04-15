@@ -7,8 +7,8 @@ const config: JestConfigWithTsJest = {
     '^.+\\.(t|j)sx?$': ['@swc/jest', { sourceMaps: 'inline' }],
   },
   moduleNameMapper: {
-    '^morphcloud$': '<rootDir>/src/index.ts',
-    '^morphcloud/(.*)$': '<rootDir>/src/$1',
+    '^sw-morphcloud$': '<rootDir>/src/index.ts',
+    '^sw-morphcloud/(.*)$': '<rootDir>/src/$1',
   },
   modulePathIgnorePatterns: [
     '<rootDir>/ecosystem-tests/',

@@ -1,5 +1,5 @@
 {
-  "name": "morphcloud",
+  "name": "sw-morphcloud",
   "version": "0.0.1-alpha.0",
   "description": "The official TypeScript library for the Morphcloud API",
   "author": "Morphcloud <>",
@@ -54,8 +54,8 @@
     "./internal/shims/getBuiltinModule.js": "./internal/shims/nullGetBuiltinModule.js"
   },
   "imports": {
-    "morphcloud": ".",
-    "morphcloud/*": "./src/*"
+    "sw-morphcloud": ".",
+    "sw-morphcloud/*": "./src/*"
   },
   "exports": {
     ".": {

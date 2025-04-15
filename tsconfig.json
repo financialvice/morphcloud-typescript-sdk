@@ -9,8 +9,8 @@
     "esModuleInterop": true,
     "baseUrl": "./",
     "paths": {
-      "morphcloud/*": ["src/*"],
-      "morphcloud": ["src/index.ts"]
+      "sw-morphcloud/*": ["src/*"],
+      "sw-morphcloud": ["src/index.ts"]
     },
     "noEmit": true,
 

@@ -1,5 +1,5 @@
 import { inspect } from 'node:util';
-import { buildHeaders, type HeadersLike, type NullableHeaders } from 'morphcloud/internal/headers';
+import { buildHeaders, type HeadersLike, type NullableHeaders } from 'sw-morphcloud/internal/headers';
 
 function inspectNullableHeaders(headers: NullableHeaders) {
   return `NullableHeaders {${[

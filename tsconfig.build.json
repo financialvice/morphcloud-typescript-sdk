@@ -5,8 +5,8 @@
   "compilerOptions": {
     "rootDir": "./dist/src",
     "paths": {
-      "morphcloud/*": ["dist/src/*"],
-      "morphcloud": ["dist/src/index.ts"],
+      "sw-morphcloud/*": ["dist/src/*"],
+      "sw-morphcloud": ["dist/src/index.ts"],
     },
     "noEmit": false,
     "declaration": true,
