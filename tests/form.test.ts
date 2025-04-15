@@ -1,5 +1,5 @@
-import { multipartFormRequestOptions, createForm } from 'morphcloud/internal/uploads';
-import { toFile } from 'morphcloud/core/uploads';
+import { multipartFormRequestOptions, createForm } from 'sw-morphcloud/internal/uploads';
+import { toFile } from 'sw-morphcloud/core/uploads';
 
 describe('form data validation', () => {
   test('valid values do not error', async () => {

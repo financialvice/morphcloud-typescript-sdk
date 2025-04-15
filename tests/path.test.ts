@@ -1,4 +1,4 @@
-import { createPathTagFunction, encodeURIPath } from 'morphcloud/internal/utils/path';
+import { createPathTagFunction, encodeURIPath } from 'sw-morphcloud/internal/utils/path';
 import { inspect } from 'node:util';
 
 describe('path template tag function', () => {

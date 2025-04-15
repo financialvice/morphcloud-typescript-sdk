@@ -1,10 +1,10 @@
 // File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
 
-import { APIPromise } from 'morphcloud/core/api-promise';
+import { APIPromise } from 'sw-morphcloud/core/api-promise';
 
 import util from 'node:util';
-import Morphcloud from 'morphcloud';
-import { APIUserAbortError } from 'morphcloud';
+import Morphcloud from 'sw-morphcloud';
+import { APIUserAbortError } from 'sw-morphcloud';
 const defaultFetch = fetch;
 
 describe('instantiate client', () => {
